@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  context-path: /v2
+
+spring:
+  data:
+    mongodb:
+      host: 192.168.182.132
+      port: 27019
+      database: services
+
+config:
+  WebPurify_api_key_text: f5854e74dc6cf4d25caca89c4ca37a0d
+  WebPurify_method_text: webpurify.live.check
+  WebPurify_hostname_text: http://api1.webpurify.com/services/rest/
+  WebPurify_lang: en
+  WebPurify_format: json
